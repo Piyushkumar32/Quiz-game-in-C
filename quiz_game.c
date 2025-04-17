@@ -28,11 +28,7 @@ int main(){
         {
             printf("Correct Answer\n");
             score++;
-        }else if (ans != Answer[0]||ans != Answer[2]||ans != Answer[3]||ans != Answer[4])
-        {
-            printf("invalid option");
         }
-        
         else
         {
             printf("incorrect Answer\n");
@@ -42,14 +38,14 @@ int main(){
     }
     if (score == nof)
     {
-        printf("You answer all of them correctly \n");
+        printf("Congrtulation! You answered all of them correctly \n");
         
     printf("Score:");
     printf("%d/%d", score,  nof);
 
     }else
     {
-        printf("Better luck nnext time \n");
+        printf("Better luck next time. \n Try again if you want ");
         
     printf("Score:");
     printf("%d/%d", score,  nof);
