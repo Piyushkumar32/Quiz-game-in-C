@@ -7,7 +7,7 @@ int main(){
     char option[][100]={"A.Kolkata ","B.Delhi","C.Bengaluru","D.Assam"
                          ,"A.Rahul gandhi","B.Narandra modi","C.Lallu yadav","D.Mamta banerjee"
                          ,"A.Yamuna","B.Brahmputra","C.Ganga","D.Narmada"};
-    char Answer[]={'B','B','C','a','d'};
+    char Answer[]={'B','B','C'};
     int nof=sizeof(question)/sizeof(question[0]);
     char ans;
     int score =0;
